@@ -1,0 +1,181 @@
+/* a minimalist set of CSS resets */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 7em;
+  background-image: url(https://cdn.glitch.global/747ddf7b-9584-44fa-a264-221b5b2311b4/squid%20game.jpg?v=1648403962615);
+  color: white;
+
+  
+}
+
+span {
+  color: red;
+}
+h1 {
+  font-family: verdana, arial, sans-serif;
+  
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+#gameButtonArea > Button {
+  width:200px;
+  height:200px;
+  margin:6px;
+  display: inline-block;
+  padding: 20px;
+  border: none;
+  border-radius: 12px;
+  
+  
+}
+
+.hidden {
+  display:none
+    
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+  
+}
+
+#button3 {
+  background: pink;
+
+}
+
+#button4 {
+  background: lightyellow;
+  
+}
+
+#button5 {
+  background: aqua;
+}
+
+#button6 {
+  background: violet;
+}
+
+#button1:active, #button1.lit {
+  background:green;
+  
+}
+
+#button2:active, #button2.lit {
+  background:red;
+    
+}
+
+#button3:active, #button3.lit {
+  background:blue;
+  
+}
+
+#button4:active, #button4.lit {
+  background:yellow
+}
+
+#button5:active, #button5.lit {
+  background:teal;
+}
+
+#button6:active, button6.lit {
+  background: purple;
+}
+
+#startBtn {
+  font-family: "Architects Daughter", cursive;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 20%;
+  cursor: pointer;
+  font-size: 30px;
+  width: 100px;
+  height: 50px;
+  font-variant-caps: small-caps;
+  border: none;
+  text-align: center;
+  margin: 10%;
+}
+
+#stopBtn {
+  font-family: "Architects Daughter", cursive;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 20%;
+  border: none;
+  cursor: pointer;
+  font-size: 30px;
+  width: 100px;
+  height: 50px;
+  font-variant-caps: small-caps;
+  text-align: center;
+  margin: 10%;
+}
+
+#memoryGameTitle {
+  font-family: "Bangers", cursive;
+  letter-spacing: 5px;
+  color: #FFFF99;
+  text-shadow: 2px 2px black;
+  font-size: 3em;
+  text-align: center;
+}
+
+#memoryGameInstructions {
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  text-shadow: 2px 1px black;
+  font-size: 2em;
+  text-align: center;
+}
+
+#startBtn:hover {
+  background-color: green;
+  color: white;
+}
+
+#stopBtn:hover {
+  background-color: red;
+  color: white;
+}
+
+#beginButtonArea {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#countdown {
+  color: red;
+  positioon: relative;
+  font-family: "Orbitron", sans-serif;
+  display: inline-block;
+  margin-right: 20%;
+  font-size: 4em;
+  width: 10%;
+  text-shadow: 2px 2px black;
+}
+
+#guesses {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  display: inline-block;
+  position: relative;
+  margin-left: 20%;
+  font-size: 4em;
+  width: 10%;
+  text-shadow: 2px 2px black;
+}
+
