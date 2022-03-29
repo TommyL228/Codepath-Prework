@@ -6,7 +6,7 @@ Submitted by: **Tommy Liang**
 
 Time spent: **7** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/mirage-agate-wolf?path=README.md%3A93%3A34
 
 ## Required Functionality
 
